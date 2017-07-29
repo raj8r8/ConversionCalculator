@@ -85,8 +85,7 @@
                                                             <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
                                                         </state>
                                                         <connections>
-                                                            <action selector="buttonConvert:" destination="EuD-Hu-xqA" eventType="touchUpInside" id="ITR-QP-Xzj"/>
-                                                            <action selector="buttondec:" destination="EuD-Hu-xqA" eventType="touchUpInside" id="lfb-mF-qhy"/>
+                                                            <action selector="converterButton:" destination="EuD-Hu-xqA" eventType="touchUpInside" id="sTj-Z1-kwS"/>
                                                         </connections>
                                                     </button>
                                                 </subviews>
@@ -286,6 +285,7 @@
                     </view>
                     <connections>
                         <outlet property="inputField" destination="56B-IH-n7Y" id="Le6-xg-jV6"/>
+                        <outlet property="outputField" destination="IZs-5D-aup" id="ZmS-X8-fEf"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="8Oy-tn-lUN" userLabel="First Responder" sceneMemberID="firstResponder"/>
